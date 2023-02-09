@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Container Style */
+.container {
+  background-color: hsl(212, 45%, 89%);
+  max-width: 1440px;
+  margin: 150px auto;
+  padding: 100px;
+}
+
+/* Card style */
+.card {
+  background-color: white;
+  width: 375px;
+  margin: 0 auto;
+  padding: 15px 15px;
+  border-radius: 25px;
+}
+
+.card__image {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.card__content {
+  margin: 20px 30px 35px;
+  text-align: center;
+}
+
+.card__content-title {
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: hsl(218, 44%, 22%);
+  margin-bottom: 20px;
+}
+
+.card__content-text {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+  padding: 0 18px;
+}
+
+/* CHALLANGE LINK */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 30px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
