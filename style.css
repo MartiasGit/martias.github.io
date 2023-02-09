@@ -12,48 +12,49 @@
   height: 100vh;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 /* Card style */
 .card {
   background-color: white;
-  width: 375px;
+  width: 23.4375rem;
   margin: 0 auto;
-  padding: 15px 15px;
-  border-radius: 25px;
+  padding: 0.93rem;
+  border-radius: 1.56rem;
 }
 
 .card__image {
   width: 100%;
-  border-radius: 15px;
+  border-radius: 0.93rem;
 }
 
 .card__content {
-  margin: 20px 30px 35px;
+  margin: 1.25rem 1.875rem 2.1875rem;
   text-align: center;
 }
 
 .card__content-title {
   font-family: "Outfit", sans-serif;
   font-weight: 700;
-  font-size: 25px;
+  font-size: 1.5625rem;
   color: hsl(218, 44%, 22%);
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .card__content-text {
   font-family: "Outfit", sans-serif;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 0.9375rem;
   color: hsl(220, 15%, 55%);
-  padding: 0 18px;
+  padding: 0 1.125rem;
 }
 
 /* CHALLANGE LINK */
 .attribution {
-  font-size: 11px;
+  font-size: 0.6875rem;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 1.875rem;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
